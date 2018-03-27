@@ -22,8 +22,8 @@ export class ContactusPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams, http: HttpClient) {
     this.http = http;
-    this.mailgunUrl = "sandboxaa84c16715934fd4aa64e7cc51513ba0.mailgun.org";
-    this.mailgunApiKey = window.btoa("api:key-007148f40ae43a896b6f81f42a757c88");
+    this.mailgunUrl = "Mail GUN URL";
+    this.mailgunApiKey = window.btoa("api:API KEY");
   }
 
 
