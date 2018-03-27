@@ -8,7 +8,7 @@ import { ContactusPage } from '../pages/contactus/contactus';
   templateUrl: 'app.html'
 })
 export class MyApp {
-  // rootPage: any = HomePage;
+  
   rootPage: any = ContactusPage;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
